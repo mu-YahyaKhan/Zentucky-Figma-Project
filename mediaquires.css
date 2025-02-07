@@ -1,0 +1,124 @@
+@media (min-width: 992px) {
+  .col-lg-6 {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .btn-order {
+    margin-bottom: 33px;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-content {
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .overlay-content {
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 767px) {
+  .chicken-image {
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 767px) {
+  .para1 {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .about-us-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us-container img {
+    order: -2;
+    margin-bottom: 20px;
+  }
+
+  .about-us-container h1 {
+    order: -1;
+    text-align: center;
+  }
+
+  .about-us-container p {
+    margin-right: 0;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .Phone {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .para2 {
+    margin-right: 5px;
+    line-height: 30px;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: "Ranga", serif;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    flex: 1 1 100%;
+  }
+
+  .d-grid {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .d-grid button {
+    flex: none;
+  }
+  .more-items-btn {
+    display: block;
+    margin-top: 20px;
+    margin-left: 95px;
+    width: 200px;
+    background-color: rgb(211, 17, 17);
+    border: none;
+    font-family: "Poppins", serif;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    min-height: 440px;
+    margin: 20px 0;
+  }
+}
